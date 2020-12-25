@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["plugin:vue/essential", "@vue/standard", "prettier"],
+  "rules": {
+    "camelcase": "off"
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "globals": {
+    "App": true,
+    "Page": true,
+    "wx": true,
+    "swan": true,
+    "getApp": true,
+    "getPage": true,
+    "getCurrentPages": true,
+    "requirePlugin": true,
+    "uni": true,
+    "mpvue": true,
+    "window": true,
+    "logger": true
+  }
+}
